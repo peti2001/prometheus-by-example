@@ -10,5 +10,10 @@ services:
     image: prom/prometheus:latest
     ports:
     - 8080:8080
+    - 9090:9090
     volumes:
     - ./prometheus.yml:/etc/prometheus/prometheus.yml
+  job-processor:
+    image: peti2001/prometheus-by-example
+    ports:
+      - 9009:9009
