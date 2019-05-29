@@ -5,7 +5,7 @@ This is a mock service that can be used to test your Prometheus configuration. I
 # How to use it?
 ```
 $ git clone https://github.com/peti2001/prometheus-by-example.git
-$ cd prometheus-by-example
+$ cd prometheus-by-example/job-processor
 $ docker-compose up
 ```
 Here you can see the mock service's Prometheus exporter: http://localhost:9009/metrics.
